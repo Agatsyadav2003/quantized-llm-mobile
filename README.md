@@ -5,7 +5,7 @@ The project focuses on **Post-Training Quantization (PTQ)** of the **Llama 3.2B*
 
 ---
 
-## 🚀 Abstract
+## Abstract
 
 Large Language Models (LLMs) are powerful but resource-hungry, making direct mobile deployment infeasible.  
 This project investigates **4-bit Post-Training Quantization (PTQ)** as a compression technique for Llama 3.2B:
@@ -15,12 +15,12 @@ This project investigates **4-bit Post-Training Quantization (PTQ)** as a compre
 - Deployed the final model on an **Android smartphone (OnePlus Nord CE 5G, Snapdragon 750G, 12GB RAM)** using Termux and [Ollama](https://ollama.com/).  
 
 The result:  
-📉 Model size reduced from **6.0 GB → 1.88 GB (68.66% reduction)** while maintaining competitive performance.  
-📱 Demonstrated **offline, private, on-device inference** with coherent results.
+- Model size reduced from **6.0 GB → 1.88 GB (68.66% reduction)** while maintaining competitive performance.  
+- Demonstrated **offline, private, on-device inference** with coherent results.
 
 ---
 
-## 🏗️ Workflow
+## Workflow
 
 **1. Model Acquisition**  
 - Base model: Llama 3.2B (BF16 precision) from Hugging Face Hub.  
@@ -35,12 +35,12 @@ The result:
 - Packaged model as `.gguf` + ZIP archive.  
 - Deployed on Android with **Termux + Ollama** for local inference.  
 
-📊 **Workflow Summary:**  
+**Workflow Summary:**  
 `Hugging Face Transformers → BitsAndBytes (nf4) → llama.cpp (GGUF q4_k_m) → Termux/Ollama → Android Deployment`
 
 ---
 
-## 📊 Results
+##  Results
 
 ### 🔹 Model Size Reduction
 | Model Format               | Size (GB) | Reduction (%) |
@@ -63,7 +63,7 @@ The result:
 
 ---
 
-## 📱 Mobile Deployment
+##  Mobile Deployment
 
 - Device: OnePlus Nord CE 5G (Snapdragon 750G, 12GB RAM, Android 13)  
 - Environment: Termux + Ollama  
