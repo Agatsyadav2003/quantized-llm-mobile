@@ -146,12 +146,11 @@ Presented at ICT Goa 2025, DOI pending.
 ```
 
 ---
-
 ## Contact
 
-Author: Agatsya Yadav  
-Email: 20agatsyadav03@gmail.com 
-LinkedIn: linkedin.com/in/agatsya-yadav-3ab612299
-GitHub: github.com/Agatsyadav2003 
+* **Author:** Agatsya Yadav
+* **Email:** <mailto:20agatsyadav03@gmail.com>
+* **LinkedIn:** <https://linkedin.com/in/agatsya-yadav-3ab612299>
+* **GitHub:** <https://github.com/Agatsyadav2003>
 
 ---
