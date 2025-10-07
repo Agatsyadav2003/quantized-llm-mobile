@@ -12,11 +12,14 @@ This project investigates **4-bit Post-Training Quantization (PTQ)** as a compre
 
 - Applied nf4 quantization using [BitsAndBytes](https://github.com/TimDettmers/bitsandbytes) within the Hugging Face Transformers framework.  
 - Converted the quantized model to GGUF format via [llama.cpp](https://github.com/ggerganov/llama.cpp).  
-- Deployed the final model on an Android smartphone (OnePlus Nord CE 5G, Snapdragon 750G, 12GB RAM) using Termux and [Ollama](https://ollama.com/).  
+- Deployed the final model on an Android smartphone (OnePlus Nord CE 5G, Snapdragon 750G, 12GB RAM) using Termux and [Ollama](https://ollama.com/).
 
 The result:  
 - Model size reduced from 6.0 GB to 1.88 GB (68.66% reduction).  
 - Demonstrated offline, private, on-device inference with coherent results.
+
+**Try the Quantized Model on Hugging Face:**  
+- [Cap4ainN3m0 / llama-3.2-3b-q4-k-m](https://huggingface.co/Cap4ainN3m0/llama-3.2-3b-q4-k-m)
 
 ---
 
