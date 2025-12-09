@@ -5,6 +5,17 @@ The project focuses on **Post-Training Quantization (PTQ)** of the **Llama 3.2B*
 
 ---
 
+## Publication
+
+This work has been formally published in Springer LNNS (ICT4SD 2025) and is openly available on arXiv.
+
+- **Springer DOI:** https://doi.org/10.1007/978-3-032-06697-8_33  
+- **arXiv Preprint:** https://arxiv.org/abs/2512.06490  
+
+For deeper insights into the methodology, results, and analysis, please refer to the published versions.
+
+---
+
 ## Abstract
 
 Large Language Models (LLMs) are powerful but resource-hungry, making direct mobile deployment infeasible.  
